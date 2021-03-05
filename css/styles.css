@@ -1,0 +1,356 @@
+/* primary-text-color - главный цвет на макете
+accent-color - цвет которым выделяется элемент (кнопка, ссылка) 
+*/ 
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: font-family: 'Raleway', sans-serif;
+    --primary-text-color: rgba(33, 33, 33,1);
+    --accent-color:  #2196F3;
+    --white-color: rgb(238, 238, 238);
+    --grey-color: #757575;
+} 
+
+/*========== <УБИРАЕТ ОФОРМЛЕНИЕ ТЕКСТА > ============*/
+.link { 
+    text-decoration: none;
+}
+/*========== <УБИРАЕТ ОФОРМЛЕНИЕ ТЕКСТА> ============*/
+
+
+/*========== <УБИРАЕТ МАРКЕРЫ У ЛИНК> ============*/
+.list {
+    list-style: none;
+}
+
+/*========== <УБИРАЕТ МАРКЕРЫ У ЛИНК> ============*/
+
+
+/*========== <УБИРАЕТ КУРСИВНЫЙ ШРИФТ У АДРЕС> ============*/
+
+.address {
+    font-style: normal;
+    }
+/*========== <УБИРАЕТ КУРСИВНЫЙ ШРИФТ У АДРЕС> ============*/
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/*========== <ДОПОЛНИТЕЛЬНЫЙ СБРОС> ============*/
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+/*========== < ЗАКОНЧИЛСЯ ДОПОЛНИТЕЛЬНЫЙ СБРОС> ============*/
+
+
+
+
+
+    /*============ <Body> =============*/
+body { 
+    font-family: var(--main-font);
+    color: var(--primary-text-color);
+    font-size: 16px;
+    background: var(--white-color);
+    /* letter-spacing: 3%; */
+}
+  /*=========== <End body> ============*/
+
+
+
+ /*========== <Header> ============*/
+ .header {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    margin-right: 92px;
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+}
+.light-theme {
+    color: var(--primary-text-color);
+}
+.dark-theme {
+    color: var(--white-color);
+}
+
+.header-container {
+    position: absolute;
+    width: 1200px;
+    height: 100px;
+    left: 200px;
+    top: 0px;
+    
+    background: #C4C4C4;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+
+  /*========== <Header> ============*/
+
+
+
+  /*=========== SITE Navigation ============ */
+.navigation-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    cursor: pointer;
+  }
+
+.icon {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+  /* ДЛЯ ИЗМЕНЕНИЯ ЦВЕТА EMAIL И TEL */
+.contact-list {
+    color: #757575;
+}
+/* ДЛЯ ИЗМЕНЕНИЯ ЦВЕТА EMAIL И TEL */
+
+.current {
+    color: var(--accent-color);
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+    color: var(--accent-color);
+  }
+
+.contacts-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--grey-color);
+}
+/*=========END Site Navigation========== */ 
+
+
+/* =============H1================= */
+/* ============= END H1================= */
+  
+
+/*=========PORTFOLIO========== */
+.section-title {
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.section-description {
+    font-family: var(--main-font);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 187% */
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+}
+/*========= END PORTFOLIO========== */
+
+
+/*===============HERO============== */
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    background-color: var(--primary-text-color);
+}
+
+.modal-btn {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 187% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.modal.btn:hover,
+.modal.btn:focus{
+    background: var(--accent-color);
+    color: var(--white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+/*=============END HERO============= */
+
+
+ /* =============HEADER 2============= */
+
+ /* .section{} на потом*/
+
+ /* .list {}  на потом*/
+
+ .header-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.description-list {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+}
+/* ========== END HEADER 2========== */
+
+
+
+ /* ==========What we do ============ */
+
+ .occupation-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+/* ========== END What we do ============ */
+
+
+/*============= OUR TEAM============== */
+
+.section-team {
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.43;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.team-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    /* identical to box height */
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.team-description {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+    /* identical to box height */
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+}
+/*===========END OUR TEAM============ */
+
+
+/*============FOOTER============== */
+.footer-link {
+    font-family: var(--main-font);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.location {
+    color: rgb(255, 255, 255);
+}
+
+.footer {
+    background-color: var(--primary-text-color);
+ }
+/* фон background-color в последствии убрать! */
+/*===========END FOOTER============== */
+
+
+
+
+
+
+
+
+ 
+
