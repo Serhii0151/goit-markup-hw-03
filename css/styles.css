@@ -120,7 +120,6 @@ body {
     height: 100px;
     left: 200px;
     top: 0px;
-    
     background: #C4C4C4;
 }
 
@@ -210,7 +209,6 @@ body {
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
-    /* identical to box height, or 200% */
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
 }
@@ -219,7 +217,6 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
-    /* identical to box height, or 187% */
     letter-spacing: 0.03em;
     color: var(--grey-color);
 }
@@ -227,32 +224,54 @@ body {
 .navigation-list {
     justify-content: center;
 }
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.portfolio-item {
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.portfolio-main {
+    background-color: #FFFFFF;
+}
+
+.section-portfolio {
+
+}
+
+.filter {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /*========= END PORTFOLIO========== */
 
 
 /*===============HERO============== */
-
-.container {
-     padding-bottom: var(--section-padding-bottom);
-}
-
 .hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    /* or 136% */
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-color);
     background-color: var(--primary-text-color);
+    max-width: 696px;
+    margin: auto;
 }
 
 .modal-btn {
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
-    /* identical to box height, or 187% */
     display: flex;
     align-items: center;
     text-align: center;
@@ -282,11 +301,10 @@ body {
  /* .section{} на потом*/
 
  /* .list {}  на потом*/
-
- .container {
+.section-description{
     padding-top: var(--section-padding-top);
     padding-bottom: var(--section-padding-bottom);
- }
+}
 
  .header-title {
     font-weight: bold;
@@ -305,22 +323,31 @@ body {
     letter-spacing: 0.03em;
     color: var(--grey-color);
 }
+
+.header-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.description-item {
+    flex-basis: calc(100% / 4 - 30px);
+     margin-left: 30px;
+     margin-top: 30px;
+}
 /* ========== END HEADER 2========== */
 
 
 
  /* ==========What we do ============ */
 
- .container {
-    padding-top: var(--section-padding-top);
-    padding-bottom: var(--section-padding-bottom);
- }
 
  .occupation-title {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     margin-bottom: 50px;
@@ -343,7 +370,6 @@ body {
 
 
 /*============= OUR TEAM============== */
-
 .section-our-team {
     background-color: #F5F4FA;
     padding-top: var(--section-padding-top);
@@ -355,7 +381,7 @@ body {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.43;
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     margin-bottom: 50px;
@@ -399,9 +425,6 @@ body {
 
 
 /*============FOOTER============== */
-.logo {
-    padding-top: 60px;
-}
 
 .site-nav {
     padding-top: 20px;
