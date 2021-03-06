@@ -81,7 +81,7 @@ body {
 
 
 
- /*========== <Header> ============*/
+ /*============== <Header> ================*/
  .header {
     font-weight: bold;
     font-size: 14px;
@@ -150,7 +150,8 @@ body {
      margin-right: 50px;
  }
 
-  /*========== <Header> ============*/
+  /*================ <END Header> ================*/
+
 
 
 
@@ -199,6 +200,8 @@ body {
 /*=========END Site Navigation========== */ 
 
 
+
+
 /* =============SITE NAV H1================= */
 .filter-item {
     margin-right: 8px;
@@ -209,13 +212,12 @@ button {
 }
 
 
-
-
-
 /* ============= END SITE NAV H1================= */
   
 
-/*=========PORTFOLIO========== */
+
+
+/*==================PORTFOLIO================= */
 .section-title {
     font-family: var(--main-font);
     font-weight: bold;
@@ -320,9 +322,8 @@ button {
     border-radius: 4px;
 }
 
-
-
 /*=============END HERO============= */
+
 
 
  /* =============HEADER 2============= */
@@ -369,6 +370,7 @@ button {
 
 
 
+
  /* ==========What we do ============ */
 
 
@@ -396,6 +398,8 @@ button {
 }
 
 /* ========== END What we do ============ */
+
+
 
 
 /*============= OUR TEAM============== */
@@ -453,16 +457,17 @@ button {
 /*===========END OUR TEAM============ */
 
 
-/*============FOOTER============== */
+
+
+/*==============FOOTER================= */
 
 .site-nav {
     padding-top: 20px;
     padding-bottom: 60px;
 }
 
-.container-footer{
+.container{
     padding-top: var(--section-padding-top);
-    background-color: #2F303A;
 }
 
 .footer-link {
@@ -470,7 +475,6 @@ button {
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
-    /* or 171% */
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -480,7 +484,7 @@ button {
 }
 
 .footer {
-    background-color: var(--primary-text-color);
+    background-color: #2F303A;
  }
 /* фон background-color в последствии убрать! */
 /*===========END FOOTER============== */
