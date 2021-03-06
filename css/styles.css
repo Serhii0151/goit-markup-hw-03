@@ -8,6 +8,8 @@ accent-color - цвет которым выделяется элемент (кн
     --accent-color:  #2196F3;
     --white-color: rgb(238, 238, 238);
     --grey-color: #757575;
+    --section-padding-top: 95px;
+    --section-padding-bottom: 95px;
 } 
 
 /*========== <УБИРАЕТ ОФОРМЛЕНИЕ ТЕКСТА > ============*/
@@ -86,6 +88,8 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .logo {
@@ -139,6 +143,13 @@ body {
     margin-right: 50px;
 }
 
+.contact-item {
+    margin-left: auto;
+ }
+
+ .tel {
+     margin-right: 50px;
+ }
 
   /*========== <Header> ============*/
 
@@ -185,6 +196,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--grey-color);
 }
+
 /*=========END Site Navigation========== */ 
 
 
@@ -211,10 +223,19 @@ body {
     letter-spacing: 0.03em;
     color: var(--grey-color);
 }
+
+.navigation-list {
+    justify-content: center;
+}
 /*========= END PORTFOLIO========== */
 
 
 /*===============HERO============== */
+
+.container {
+     padding-bottom: var(--section-padding-bottom);
+}
+
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -239,6 +260,8 @@ body {
     color: var(--white-color);
     background-color: var(--accent-color);
     cursor: pointer;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .modal.btn:hover,
@@ -248,6 +271,9 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+
+
+
 /*=============END HERO============= */
 
 
@@ -257,12 +283,18 @@ body {
 
  /* .list {}  на потом*/
 
+ .container {
+    padding-top: var(--section-padding-top);
+    padding-bottom: var(--section-padding-bottom);
+ }
+
  .header-title {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    margin-bottom: 10px;
 }
 
 .description-list {
@@ -279,6 +311,11 @@ body {
 
  /* ==========What we do ============ */
 
+ .container {
+    padding-top: var(--section-padding-top);
+    padding-bottom: var(--section-padding-bottom);
+ }
+
  .occupation-title {
     font-weight: bold;
     font-size: 36px;
@@ -286,11 +323,32 @@ body {
     /* text-align: center; */
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    margin-bottom: 50px;
 }
+
+.occupation-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.occupation-item {
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
 /* ========== END What we do ============ */
 
 
 /*============= OUR TEAM============== */
+
+.section-our-team {
+    background-color: #F5F4FA;
+    padding-top: var(--section-padding-top);
+    padding-bottom: var(--section-padding-bottom);
+}
 
 .section-team {
     font-family: var(--main-font);
@@ -300,6 +358,7 @@ body {
     /* text-align: center; */
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    margin-bottom: 50px;
 }
 
 .team-title{
@@ -310,6 +369,7 @@ body {
     /* text-align: center; */
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    margin-bottom: 10px;
 }
 
 .team-description {
@@ -320,11 +380,39 @@ body {
     /* text-align: center; */
     letter-spacing: 0.03em;
     color: var(--grey-color);
+    margin-bottom: 30px;
 }
+
+.our-team-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+ }
+
+ .team-list-item {
+     flex-basis: calc(100% / 4 - 30px);
+     margin-left: 30px;
+     margin-top: 30px;
+ }
 /*===========END OUR TEAM============ */
 
 
 /*============FOOTER============== */
+.logo {
+    padding-top: 60px;
+}
+
+.site-nav {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.container-footer{
+    padding-top: var(--section-padding-top);
+    background-color: #2F303A;
+}
+
 .footer-link {
     font-family: var(--main-font);
     font-weight: normal;
