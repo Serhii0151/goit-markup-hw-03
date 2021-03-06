@@ -236,19 +236,27 @@ body {
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
+    border-top: none;
 }
 
 .portfolio-main {
     background-color: #FFFFFF;
-}
-
-.section-portfolio {
-
+    margin: 0 auto;
+   
 }
 
 .filter {
-    padding-top: 50px;
+    padding-top: 180px;
     padding-bottom: 50px;
+}
+
+.portfolio-list-img {
+    margin-bottom: 20px;
+}
+
+.section-item {
+    margin-top: 4px;
+    margin-bottom: 8px;
 }
 
 /*========= END PORTFOLIO========== */
