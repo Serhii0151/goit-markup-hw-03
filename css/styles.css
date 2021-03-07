@@ -137,6 +137,7 @@ body {
 .header {
     display: flex;
     align-items: center;
+    background-color: #FFFFFF;
 }
 
 .navigation {
@@ -174,6 +175,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     cursor: pointer;
+    padding: 6px 22px;
   }
 
 .icon {
@@ -235,6 +237,7 @@ button {
 .portfolio-main {
     background-color: #FFFFFF;
     margin: 0 auto;
+    padding-top: 180px;
     padding-bottom: 8px;
 }
 
@@ -245,7 +248,6 @@ button {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
-    margin: 20px 24px;
 }
 
 .section-description {
@@ -259,6 +261,7 @@ button {
 
 .navigation-list {
     justify-content: center;
+    margin-bottom: 34px;
 }
 
 .portfolio-list {
@@ -277,19 +280,12 @@ button {
     box-sizing: border-box;
 }
 
-.filter {
-    padding-top: 180px;
-    padding-bottom: 50px;
-}
-
 .section-item {
     margin-top: 4px;
-    margin-left: 24px;
 }
 
 .portfolio-list-content {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     border: 1px solid #EEEEEE;
 }
 
@@ -300,6 +296,11 @@ button {
 
 
 /*===============HERO============== */
+
+.hero {
+    background-color: #2F303A;
+}
+
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -308,11 +309,8 @@ button {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-color);
-    background-color: #2F303A;
     max-width: 696px;
     margin: auto;
-    padding-top: 200px;
-    padding-bottom: 200px;
 }
 
 .modal-btn {
@@ -477,14 +475,12 @@ button {
 
 
 /*==============FOOTER================= */
-
+.footer {
+    background-color: #2F303A;
+}
 .site-nav {
     padding-top: 20px;
     padding-bottom: 60px;
-}
-
-.container{
-    padding-top: var(--section-padding-top);
 }
 
 .footer-link {
@@ -500,10 +496,6 @@ button {
     color: rgb(255, 255, 255);
 }
 
-.footer {
-    background: #2F303A;
- }
-/* фон background-color в последствии убрать! */
 /*===========END FOOTER============== */
 
 
