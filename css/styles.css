@@ -231,6 +231,13 @@ button {
 
 
 /*==================PORTFOLIO================= */
+
+.portfolio-main {
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding-bottom: 8px;
+}
+
 .section-title {
     font-family: var(--main-font);
     font-weight: bold;
@@ -241,6 +248,7 @@ button {
     margin: 20px 24px;
 
 }
+
 .section-description {
     font-family: var(--main-font);
     font-weight: normal;
@@ -268,12 +276,6 @@ button {
     border-top: none;
     background: #FFFFFF;
     box-sizing: border-box;
-}
-
-.portfolio-main {
-    background-color: #FFFFFF;
-    margin: 0 auto;
-   
 }
 
 .filter {
@@ -307,9 +309,11 @@ button {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-color);
-    background-color: var(--primary-text-color);
+    background-color: #2F303A;
     max-width: 696px;
     margin: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .modal-btn {
@@ -325,6 +329,8 @@ button {
     cursor: pointer;
     margin: 0 auto;
     margin-top: 30px;
+    min-width: 200px;
+    padding: 10px 32px;
 }
 
 .modal.btn:hover,
@@ -363,7 +369,6 @@ button {
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
-    /* or 171% */
     letter-spacing: 0.03em;
     color: var(--grey-color);
 }
@@ -386,7 +391,6 @@ button {
 
 
  /* ==========What we do ============ */
-
 
  .occupation-title {
     font-weight: bold;
@@ -498,7 +502,7 @@ button {
 }
 
 .footer {
-    background-color: #2F303A;
+    background: #2F303A;
  }
 /* фон background-color в последствии убрать! */
 /*===========END FOOTER============== */
