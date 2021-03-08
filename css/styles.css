@@ -12,11 +12,13 @@ accent-color - цвет которым выделяется элемент (кн
     --section-padding-bottom: 95px;
 } 
 
-/*========== <УБИРАЕТ ОФОРМЛЕНИЕ ТЕКСТА > ============*/
+/*========== <УБИРАЕТ НИЖНЕЕ ПОДЧЁРКИВАНИЕ > ============*/
 .link { 
     text-decoration: none;
 }
-/*========== <УБИРАЕТ ОФОРМЛЕНИЕ ТЕКСТА> ============*/
+/*========== <УБИРАЕТ НИЖНЕЕ ПОДЧЁРКИВАНИЕ> ============*/
+
+
 
 
 /*========== <УБИРАЕТ МАРКЕРЫ У ЛИНК> ============*/
@@ -26,13 +28,6 @@ accent-color - цвет которым выделяется элемент (кн
 
 /*========== <УБИРАЕТ МАРКЕРЫ У ЛИНК> ============*/
 
-
-/*========== <УБИРАЕТ КУРСИВНЫЙ ШРИФТ У АДРЕС> ============*/
-
-.address {
-    font-style: normal;
-    }
-/*========== <УБИРАЕТ КУРСИВНЫЙ ШРИФТ У АДРЕС> ============*/
 
 .container {
     width: 1200px;
@@ -85,8 +80,6 @@ body {
     font-family: var(--main-font);
     color: var(--primary-text-color);
     font-size: 16px;
-    background: var(--white-color);
-    /* letter-spacing: 3%; */
 }
   /*=========== <End body> ============*/
 
@@ -111,7 +104,7 @@ body {
     /* identical to box height */
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    margin-right: 92px;
+    margin-bottom: 60px;
 }
 
 .logo:hover,
@@ -147,7 +140,8 @@ body {
 
 .navigation-list {
     display: flex;
-    align-items: center;
+    margin-left: 93px; /*длина между студия, портфолио, контакты и email-tel*/
+
 }
 
 .navigation-item:not(:last-child) {
@@ -158,10 +152,11 @@ body {
     margin-left: auto;
  }
 
- .tel {
-     margin-right: 50px;
- }
+ .header-contacts {
+    margin-right: 50px;
+}
 
+ 
   /*================ <END Header> ================*/
 
 
@@ -175,7 +170,6 @@ body {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     cursor: pointer;
-    padding: 6px 22px;
   }
 
 .icon {
@@ -210,6 +204,8 @@ body {
     color: var(--grey-color);
 }
 
+
+
 /*=========END Site Navigation========== */ 
 
 
@@ -226,6 +222,11 @@ button {
     border-style: none;
 }
 
+.section {
+    padding-top: 180px;
+    padding-bottom: 34px;
+}
+
 
 /* ============= END SITE NAV H1================= */
   
@@ -233,13 +234,6 @@ button {
 
 
 /*==================PORTFOLIO================= */
-
-.portfolio-main {
-    background-color: #FFFFFF;
-    margin: 0 auto;
-    padding-top: 180px;
-    padding-bottom: 8px;
-}
 
 .section-title {
     font-family: var(--main-font);
@@ -261,7 +255,7 @@ button {
 
 .navigation-list {
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 52px;
 }
 
 .portfolio-list {
@@ -296,9 +290,10 @@ button {
 
 
 /*===============HERO============== */
-
 .hero {
     background-color: #2F303A;
+    padding: 200px;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -412,6 +407,10 @@ button {
     margin-top: 30px;
 }
 
+.occupation-image {
+    max-width: 100%;
+}
+
 /* ========== END What we do ============ */
 
 
@@ -468,6 +467,18 @@ button {
      flex-basis: calc(100% / 4 - 30px);
      margin-left: 30px;
      margin-top: 30px;
+     background-color: #F5F4FA;
+ }
+
+ img { 
+     max-width: 100%;
+ }
+
+ .our-team-content {
+     padding: 30px 60px;
+     border: 1px solid #EEEEEE;
+     background-color: #FFFFFF;
+     
  }
 /*===========END OUR TEAM============ */
 
@@ -475,13 +486,22 @@ button {
 
 
 /*==============FOOTER================= */
+
+.logo-footer {
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+} 
+
 .footer {
     background-color: #2F303A;
+    padding: 60px 0;
 }
-.site-nav {
-    padding-top: 20px;
-    padding-bottom: 60px;
-}
+
 
 .footer-link {
     font-family: var(--main-font);
@@ -496,7 +516,20 @@ button {
     color: rgb(255, 255, 255);
 }
 
+.footer-item {
+    margin-bottom: 9px;
+    padding-top: 20px;
+}
+
+
 /*===========END FOOTER============== */
+
+/*========== <УБИРАЕТ КУРСИВНЫЙ ШРИФТ У АДРЕС> ============*/
+
+.address {
+    font-style: normal;
+    }
+/*========== <УБИРАЕТ КУРСИВНЫЙ ШРИФТ У АДРЕС> ============*/
 
 
 

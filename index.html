@@ -26,15 +26,15 @@
             </ul>
 
             <ul class="navigation-list list contact-item">
-                <li><a class="navigation-link link icon tel" class="contacts-link" href="mailto:info@devstudio.com">info@example.com</a></li>
-                <li><a class="navigation-link link icon" class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="header-contacts"><a class="navigation-link link icon" class="contacts-link" href="mailto:info@devstudio.com">info@example.com</a></li>
+                <li class="header-contacts"><a class="navigation-link link icon" class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </nav>
         </div>
  </header>
 <main>
         <!-- (HERO) -->
-        <h1 hidden>H1</h1>
+        <hidden></hidden>
         <section class="hero">
             <div class="container">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
@@ -70,13 +70,13 @@
                 <h2 class="occupation-title">Чем мы занимаемся</h2>
                 <ul class="list occupation-list">
                     <li class="occupation-item">
-                        <img src="./images/box1.jpg" alt="hands of man typing on keyboard" width="370">
+                        <img class="occupation-image" src="./images/box1.jpg" alt="hands of man typing on keyboard">
                     </li>
                     <li class="occupation-item">
-                        <img src="./images/box2.jpg" alt="man holding smartphone in hand on laptop background" width="370">
+                        <img class="occupation-image" src="./images/box2.jpg" alt="man holding smartphone in hand on laptop background">
                     </li>
                     <li class="occupation-item">
-                        <img src="./images/box3.jpg" alt="hand holding a tablet with a color image on the screen on a computer background" width="370">
+                        <img class="occupation-image" src="./images/box3.jpg" alt="hand holding a tablet with a color image on the screen on a computer background">
                     </li>
                 </ul>
             </div>
@@ -88,25 +88,37 @@
                 <h2 class="section-team">Наша команда</h2>
                 <ul class="our-team-list list">
                     <li class="team-list-item">
-                        <img src="./images/img(7).jpg" alt="фото Игоря Демьяненко продукт Дизайнера" width="270"> 
-                        <h3 class="team-title">Игорь Демьяненко</h3>
-                        <p class="team-description">Product Designer</p>
+                        <img src="./images/img(7).jpg" alt="фото Игоря Демьяненко продукт Дизайнера"> 
+                        <div class="our-team-content"> 
+                            <h3 class="team-title">Игорь Демьяненко</h3>
+                            <p class="team-description">Product Designer</p>
+                        </div>
                     </li>
+
                     <li class="team-list-item">
-                        <img src="./images/img(4).jpg" alt="фото Ольги Репиной Фронтенд Разработчицы" width="270"> 
-                        <h3 class="team-title">Ольга Репина</h3>
-                        <p class="team-description">Frontend Developer</p>
+                        <img src="./images/img(4).jpg" alt="фото Ольги Репиной Фронтенд Разработчицы"> 
+                         <div class="our-team-content"> 
+                            <h3 class="team-title">Ольга Репина</h3>
+                            <p class="team-description">Frontend Developer</p>
+                         </div>
                     </li>
+
                     <li class="team-list-item">
-                        <img src="./images/img(5).jpg" alt="фото Николая Тарасова маркетинг Менеджера" width="270"> 
-                        <h3 class="team-title">Николай Тарасов</h3>
-                        <p class="team-description">Marketing</p>
+                        <img src="./images/img(5).jpg" alt="фото Николая Тарасова маркетинг Менеджера"> 
+                        <div class="our-team-content"> 
+                            <h3 class="team-title">Николай Тарасов</h3>
+                            <p class="team-description">Marketing</p>
+                        </div> 
                     </li>
+
                     <li class="team-list-item">
                         <img src="./images/img(6).jpg" alt="фото Михаила Ермакова интерфейс Разработчика" width="270"> 
-                        <h3 class="team-title">Михаил Ермаков</h3>
-                        <p class="team-description">UI Designer</p>
+                         <div class="our-team-content"> 
+                            <h3 class="team-title">Михаил Ермаков</h3>
+                            <p class="team-description">UI Designer</p>
+                         </div>
                     </li>
+
                 </ul>
             </div>
         </section>
@@ -115,15 +127,15 @@
      <footer class="footer">
        <div class="container">
         <!-- Contacts -->
-<a class="link logo" href="./index.html">Web<span class="dark-theme">Studio</span></a>
+<a class="link logo-footer" href="./index.html">Web<span class="dark-theme">Studio</span></a>
          <address class="address">
              <ul class="site-nav list"> 
-                 <li>
+                 <li class="footer-item">
                      <a class="link location" href="https://goo.gl/maps/X1yvUjmJg16SnbM39" target="_blank" rel="noopener noreferrer" class="button">
                          г. Киев,
                      пр-т Леси Украинки,26></a>
                  </li>
-                 <li>
+                 <li class="footer-item">
                      <a class="link footer-link navigation-link" href="mailto:info@example.com" target="_blank" class="button">info@example.com</a>
                  </li>
                  <li>
