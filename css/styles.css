@@ -292,6 +292,7 @@ button {
     margin-left: 30px;
     margin-top: 30px;
     border-top: none;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);;
     background: #FFFFFF;
     box-sizing: border-box;
 }
@@ -469,7 +470,7 @@ button {
     font-size: 16px;
     line-height: 1.18;
     /* identical to box height */
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.01em;
     color: var(--primary-text-color);
     margin-bottom: 10px;
@@ -480,7 +481,7 @@ button {
     font-size: 16px;
     line-height: 1.18;
     /* identical to box height */
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.03em;
     color: var(--grey-color);
     
@@ -497,6 +498,7 @@ button {
      flex-basis: calc(100% / 4 - 30px);
      margin-left: 30px;
      margin-top: 30px;
+     box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
      background-color: #F5F4FA;
  }
 
@@ -506,7 +508,6 @@ button {
 
  .our-team-content {
      padding: 30px 60px;
-     border: 1px solid #EEEEEE;
      background-color: #FFFFFF;
      
  }
