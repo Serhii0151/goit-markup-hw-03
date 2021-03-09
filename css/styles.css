@@ -104,7 +104,7 @@ body {
     /* identical to box height */
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    margin-bottom: 60px;
+    
 }
 
 .logo:hover,
@@ -153,7 +153,7 @@ body {
  }
 
  .header-contacts {
-    margin-right: 50px;
+    margin-left: 50px;
 }
 
  
@@ -223,7 +223,6 @@ button {
 }
 
 .section {
-    padding-top: 180px;
     padding-bottom: 34px;
 }
 
@@ -255,7 +254,6 @@ button {
 
 .navigation-list {
     justify-content: center;
-    margin-bottom: 52px;
 }
 
 .portfolio-list {
@@ -292,7 +290,7 @@ button {
 /*===============HERO============== */
 .hero {
     background-color: #2F303A;
-    padding: 200px;
+    padding: 200px 0    ;
     margin: 0 auto;
 }
 
@@ -453,7 +451,7 @@ button {
     /* text-align: center; */
     letter-spacing: 0.03em;
     color: var(--grey-color);
-    margin-bottom: 30px;
+    
 }
 
 .our-team-list {
@@ -495,6 +493,7 @@ button {
     letter-spacing: 0.03em;
     color: var(--accent-color);
     margin-bottom: 20px;
+    display: block;
 } 
 
 .footer {
@@ -518,7 +517,7 @@ button {
 
 .footer-item {
     margin-bottom: 9px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 
