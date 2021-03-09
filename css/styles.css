@@ -224,12 +224,30 @@ button {
 
 .section {
     padding-bottom: 34px;
-    padding-top: 180px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .filter {
-     margin-bottom: 38px;
+     margin-bottom: 50px;
 }
+
+.filter-link {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}
+
+.filter-link:hover,
+.filter-link:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+  }
 
 
 /* ============= END SITE NAV H1================= */
@@ -328,13 +346,15 @@ button {
     padding: 10px 32px;
 }
 
+
 .modal.btn:hover,
 .modal.btn:focus{
-    background: var(--accent-color);
+    background-color: #2196F3;
     color: var(--white-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+
 
 /*=============END HERO============= */
 
