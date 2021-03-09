@@ -224,6 +224,11 @@ button {
 
 .section {
     padding-bottom: 34px;
+    padding-top: 180px;
+}
+
+.filter {
+     margin-bottom: 38px;
 }
 
 
